@@ -39,7 +39,8 @@ public class Greedy {
             } else {
                 fraction = capacity / (double) objectList[index][0];
                 totalValue += (double)objectList[index][1] * fraction;
-                System.out.println("무게 : " + objectList[index][0] + ", 가치 : " + objectList[index][1]);
+                System.out.println("무게 : " + objectList[index][0] + ", 가치 : " + objectList[index][1] + ", 비율 : " + fraction);
+                break;
             }
         }
 
